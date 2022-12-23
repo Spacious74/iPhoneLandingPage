@@ -16,7 +16,7 @@ body{
     top: 0;
     z-index: 1;
     backdrop-filter: blur(30px);
-    background-color: #ffffffc2;
+    background-color: #ffffff7c;
     outline: solid 1.5px #D7D7D6;
 }
 
@@ -657,14 +657,15 @@ nav .list {
     border-radius: 50px;
 }
 .gamevideo video{
-    border-radius: 50px;
+    border-radius: 60px;
+    height: 480px;
+    box-shadow: 0px 12px 40px #0000009c;
 }
 .gamecontainer .frame{
     margin-bottom: 70px;
-    width: 72%;
-    margin-top: -510px;
-    border: solid 60px #F4F5F6;
-    border-radius: 50px;
+    width: 890px;
+    height: 500px;
+    margin-top: -490px;
 }
 .gamecontainer .lasttext{
     font-size: 2rem;
