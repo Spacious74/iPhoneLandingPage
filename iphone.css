@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
-    font-family: SF Pro text;
-    /* font-family: 'Source Sans Pro', sans-serif; */
-
+    font-family: 'Inter', sans-serif;
+    color: #1C1D1E;
 }
 body{
     overflow-x: hidden;
@@ -211,11 +210,10 @@ nav .list {
     text-align: center;
     font-size: 1.5rem;
     margin-top: 15rem;
-    height: 50vh;
+    height: 20vh;
 }
 .price-container .price-text{
     font-weight: 600;
-    margin-bottom: 20px;
 }
 .price-container .links .link{
     display: flex;
@@ -390,7 +388,7 @@ nav .list {
     margin: auto;
 }
 .crashcontainer .crashimg{
-    width: 100%;
+    width: 90%;
 }
 .crashcontainer .crashtext{
     width: 55%;
@@ -400,6 +398,7 @@ nav .list {
     font-size: 4rem;
     font-weight: bolder;
     color: #1C1C1F;
+    
 }
 
 .crashcontainer .crashtext .smtext{
@@ -530,6 +529,10 @@ nav .list {
     background: -webkit-linear-gradient(360deg,#2EA1B6,#859BF7, #EE575F,#ff343e);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-family: 'Yantramanav', sans-serif;
+}
+.info .text{
+    font-family: 'Yantramanav', sans-serif;
 }
 
 .video{
@@ -577,6 +580,7 @@ nav .list {
     font-weight: 600;
     color: #6F6F73;
     line-height: 30px;
+    font-family: 'Yantramanav', sans-serif;
 }
 .video .midtext .txt2{
     width: 40%;
@@ -615,6 +619,7 @@ nav .list {
     font-weight: bold;
     color: #6F6F73;
     margin: 0px 45px;
+    font-family: 'Yantramanav', sans-serif;
 }
 .flip .gradtext{
     background: -webkit-linear-gradient(360deg,#2EA1B6,#859BF7, #EE575F,#ff343e);
@@ -670,4 +675,188 @@ nav .list {
 .gamecontainer .lasttext{
     font-size: 2rem;
     color: #6F6F73;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.color-container{
+    width: 100%;
+    margin: auto;
+    background-color: #FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.color-container .colorsImage{
+    width: 80%;
+    margin: auto;
+}
+
+.widgets-container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bolder;
+    height: 130vh;
+}
+.widgets-container .text{
+    margin-bottom: 20px;
+}
+.widgets-container .text .smtxt{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.widgets-container .text .medtxt{
+    font-size: 2.3rem;
+}
+
+
+.which-iphone{
+    margin-top: 50px;
+}
+.which-iphone .compare-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.which-iphone .medtxt{
+    font-size: 3.4rem;
+    width: 70%;
+    font-weight: bolder;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.which-iphone .compare-container .iphone14{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+.iphone14 .compimg{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.iphone14 .variant{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.iphone14 .name-title{
+    text-align: center;
+}
+.name-title .name{
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.name-title .title{
+    color: grey;
+    margin-bottom: 30px;
+}
+.name-title .price{
+    margin-bottom: 20px;
+}
+.name-title .buy{
+    background-color: #0071E3;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+.icontxt{
+    margin-top: 50px;
+}
+.icontxt .icon{
+    margin-bottom: 10px;
+}
+.icontxt .txt{
+    line-height: 30px;
+    font-weight: bold;
+    font-family: 'Yantramanav', sans-serif;
+}
+.last-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    height: 100vh;
+}
+.last-container .text{
+    text-align: center;
+    width: 45%;
+}
+.last-container .text .medtxt{
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.last-container .text .smtxt{
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 1.2rem;
+}
+.last-container .text .link{
+    color: blue;
+    margin-top: 20px;
+}
+.footer{
+    background-color: #F5F5F7;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer .lists-container{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: flex-start;
+    width: 73.5%;
+}
+.footer .bread-crumb{
+    width: 70%;
+    margin: auto;
+    margin-top: 80px;
+    color: grey;
+    font-size: 0.8rem;
+}
+.footer .lists{
+    margin: 20px 20px 0px 20px;
+}
+
+.footer .bread-crumb .icon{
+    display: inline;
+    vertical-align: middle;
+}
+.footer .lists ul{
+    list-style: none;
+    margin: 0px;
+}
+.footer .lists li{
+    margin-bottom: 5px;
+    color: grey;
+    cursor: pointer;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 0.8rem;
+}
+.footer .lists li:hover{
+    color: #000000;
+}
+.footer .lists .smtxt{
+    margin: 20px 0px;
+    font-size: 0.8rem;
+}
+.footer .copyright{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+    padding: 30px 0px;
 }
