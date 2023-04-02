@@ -553,6 +553,7 @@ nav .list {
 }
 .video video{
     border-radius: 20px;
+    width: 1000px;
 }
 .reel{
     display: inline;
