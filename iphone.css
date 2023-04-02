@@ -3,8 +3,14 @@
 * {
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     font-family: 'Inter', sans-serif;
     color: #1C1D1E;
+=======
+/*     font-family: SF Pro text; */
+    font-family: 'Source Sans Pro', sans-serif;
+
+>>>>>>> b7ad5e013c781c80885d940b815a5c1d42d1fee8
 }
 body{
     overflow-x: hidden;
