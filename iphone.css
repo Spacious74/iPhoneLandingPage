@@ -10,7 +10,16 @@
 body{
     overflow-x: hidden;
 }
-
+#infowar{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 2rem;
+    width: 90%;
+    display: none;
+}
 .navbarcontainer {
     position: sticky;
     top: 0;
@@ -861,4 +870,33 @@ nav .list {
     align-items: center;
     font-size: 0.8rem;
     padding: 30px 0px;
+}
+
+@media only screen and (max-width: 1024px)  {
+    div{
+        display: none;
+        background: none;
+    }
+    video{
+        display: none;
+    }
+    img{
+        display: none;
+    }
+    span{
+        display: none;
+    }
+    #infowar{
+        display: block;
+        text-align: center;
+    }
+    .gridcontainer{
+        display: none;
+    }
+    .bigg-text{
+        display: none;
+    }
+    .resicon{
+        display: block;
+    }
 }
